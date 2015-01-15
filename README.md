@@ -1,10 +1,10 @@
-# Pull to Update IOS (UIViewController category)
+# Pull to Refresh IOS (UIViewController category)
 
-![Pull to Update IOS](https://camo.githubusercontent.com/e5dc6dc94a0bb3a4f379c245de85401efca76155/687474703a2f2f63646e2e6d616b65616769662e636f6d2f6d656469612f312d31342d323031352f583967474a4c2e676966)
+![Pull to Refresh IOS](https://camo.githubusercontent.com/e5dc6dc94a0bb3a4f379c245de85401efca76155/687474703a2f2f63646e2e6d616b65616769662e636f6d2f6d656469612f312d31342d323031352f583967474a4c2e676966)
 
 ## What is this?
 
-This is a Category for UIViewController, which you can use for UITableView to update info in it via "Pull To Update" gesture
+This is a Category for UIViewController, which you can use for UITableView to update info in it via "Pull To Refresh" gesture
 
 ## How Can I use it?
 
