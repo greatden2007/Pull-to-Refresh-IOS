@@ -135,6 +135,17 @@ NSString * const kisAfterUpdate = @"kisAfterUpdate";
     }
 }
 
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    
+    if(self.isUpdatable) {
+        
+        self.loadingIndicatorView.frame = CGRectMake(self.innerTableView.frame.size.width/2, 15, 50, 50);
+        self.loadingImageView.frame     = CGRectMake(self.innerTableView.frame.size.width/2, 15, 50, 50);
+        
+        [self.loadingIndicatorView setCenter:CGPointMake(self.innerTableView.center.x, self.loadingIndicatorView.center.y)];
+        [self.loadingImageView setCenter:CGPointMake(self.innerTableView.center.x, self.loadingImageView.center.y)];
+    }
+}
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if(!self.isUpdatable) {
