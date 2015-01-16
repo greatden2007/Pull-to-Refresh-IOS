@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (PullToUpdate) <UITableViewDelegate>
+@interface UIViewController (PullToRefresh) <UITableViewDelegate>
 @property (strong, nonatomic) UIImageView *loadingImageView;
 @property (strong, nonatomic) UIActivityIndicatorView *loadingIndicatorView;
 @property (strong, nonatomic) UITableView *innerTableView;

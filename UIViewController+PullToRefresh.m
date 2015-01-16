@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 HowAboutNo. All rights reserved.
 //
 
-#import "UIViewController+PullToUpdate.h"
+#import "UIViewController+PullToRefresh.h"
 #import <objc/runtime.h>
-@implementation UIViewController (PullToUpdate)
+@implementation UIViewController (PullToRefresh)
 
 @dynamic isUpdating;
 @dynamic loadingImageView;
